@@ -1,4 +1,4 @@
-let inicio = prompt ("Nombre de usuario:");
+// let inicio = prompt ("Nombre de usuario:");
 
 if (inicio == "Admin"){
     let password = prompt("Introduzca contraseña:");

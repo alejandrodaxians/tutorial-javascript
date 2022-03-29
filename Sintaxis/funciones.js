@@ -1,11 +1,12 @@
-/*function mensajito(saludo, nombre){
+function mensajito(saludo, nombre){
     saludo = '*' + saludo + '*';
     alert(saludo + ", " + nombre);
 }
 
-mensajito("Buenas", "compañero");*/
+// mensajito("Buenas", "compañero");
 
-/*function checkAge(age) {
+
+function checkAge(age) {
     if (age > 18) {
       return true;
     } else {
@@ -13,14 +14,13 @@ mensajito("Buenas", "compañero");*/
     }
   }
 
-
-  function checkAge(age) {
+function checkAge(age) {
     return(age > 18) || confirm("Mensaje de permiso");
-  }
-*/
+}
 
-/*let a = prompt("Introduce el primer numero.");
-let b = prompt("Introduce el segundo numero");
+
+// let a = prompt("Introduce el primer numero.");
+// let b = prompt("Introduce el segundo numero");
 
 function min(a, b) {
     if (a < b) {
@@ -29,16 +29,16 @@ function min(a, b) {
         alert(b);
     }
 }
-min(a, b);*/
+min(a, b);
 
-/*let x = prompt("Introduce el numero." + "");
-let n = prompt("introduce la potencia." + "");
+
+// let x = prompt("Introduce el numero." + "");
+// let n = prompt("introduce la potencia." + "");
 
 function pow(x, n) {
     for (let i = 1; i < n; i++) {
         result *= x;
     }
-
     return result;
 }
 
@@ -48,6 +48,3 @@ if (n < 1) {
   } else {
     alert( pow(x, n) );
   }
-*/
-
-

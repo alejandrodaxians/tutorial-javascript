@@ -1,25 +1,27 @@
-/*let user = {
+let user = {
     name: "Java",
     surname: "Script",
     "is easy": true,
 }
 
-alert(user["is easy"]);
+// alert(user["is easy"]);
 
 user["is easy"] = false;
 
-alert(user["is easy"]);
+// alert(user["is easy"]);
 
 let key = prompt("¿Qué necesitas saber?", "name, surname, o is easy");
-alert(user[key]);*/
+//  alert(user[key]);
 
-/*let user = {};
+
+let user = {};
 user.name = "John";
 user.surname = "Smith";
 user.name = "Pete";
-delete user.name;*/
+delete user.name;
 
-/*let salaries = {
+
+let salaries = {
     John: 100,
     Ann: 160,
     Pete: 130
@@ -30,9 +32,10 @@ for (let key in salaries) {
     sum += salaries [key];
 }
 
-alert(sum);*/
+// alert(sum);
 
-/*let menu = {
+
+let menu = {
     width: 200,
     height: 300,
     title: "Mi menú"
@@ -42,14 +45,15 @@ function multiplyNumeric(obj) {
     for (let key in obj) {
         if(typeof obj[key] == "number") {
             obj[key] *= 2;
-            alert(obj[key]);
+           // alert(obj[key]);
         }
     }
 }
 
-multiplyNumeric(menu);*/
+multiplyNumeric(menu);
 
-/*let calculator = {
+
+let calculator = {
     read() {
         this.a = +prompt('a?', 0);
         this.b = +prompt('b?', 0);
@@ -65,19 +69,18 @@ multiplyNumeric(menu);*/
   };
   
   calculator.read();
-  alert( calculator.sum() );
-  alert( calculator.mul() );*/
+//   alert( calculator.sum() );
+//   alert( calculator.mul() );
 
-/*function Accumulator(startingValue) {
+
+function Accumulator(startingValue) {
     this.value = startingValue;
 
     this.read = function() {
-          this.value += +prompt("Agregar valor al acumulador", 0);
+        // this.value += +prompt("Agregar valor al acumulador", 0);
     };
 }
 
 let accumulator = new Accumulator(1);
-//Leer
-accumulator.read();*/
 
-
+accumulator.read();

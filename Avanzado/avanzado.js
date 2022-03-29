@@ -1,4 +1,4 @@
-/*function fib(n){
+function fib(n){
     let a = 1;
     let b = 1;
     for (let i = 3; i <= n; i++) {
@@ -7,11 +7,12 @@
         b = c;
     }
     return b;
-}*/
+}
 
-//alert ( fib(77) );
+// alert ( fib(77) );
 
-/*let list = {
+
+let list = {
     value: 1,
     next: {
       value: 2,
@@ -35,9 +36,10 @@
   
   }
   
-  printList(list);*/
+// printList(list);
 
- /*function inBetween(a, b) {
+
+function inBetween(a, b) {
   return function(x) {
     return x >= a && x <= b; 
   };
@@ -51,12 +53,13 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7];
 
-alert( arr.filter(inBetween(3, 6)) ); 
+// alert( arr.filter(inBetween(3, 6)) ); 
   
-alert( arr.filter(inArray([1, 2, 10])) );*/
+// alert( arr.filter(inArray([1, 2, 10])) );
 
-/*function sayHi() {
+
+function sayHi() {
   alert('Han pasado cinco segundos');
 }
 
-setTimeout(sayHi, 5000);*/
+// setTimeout(sayHi, 5000);
